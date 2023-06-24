@@ -1,6 +1,6 @@
 import streamlit as st
 import base64
-import firebase
+from firebase import Firebase
 import env
 import os
 import python_jwt as jwt
@@ -30,7 +30,7 @@ def detect():
         
         response_data = result
         
-        db = firebase.Firebase()
+        db = Firebase()
         db.authenticate()
         db.push(response_data)
         
