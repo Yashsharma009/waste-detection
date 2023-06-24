@@ -1,0 +1,2 @@
+streamlit==0.88.0
+firebase==3.0.1  # Replace with the appropriate version
