@@ -1,8 +1,9 @@
-import streamlit as st
+]import streamlit as st
 import base64
 import firebase
 import env
 import os
+import python_jwt as jwt
 
 # health check
 def health_check():
